@@ -20,6 +20,7 @@ If you run your own server you naturally need to replace `https://api.getferdi.c
 
 ### Accountless
 
+
 If you use Ferdi without an account then your app is running a local server to manage your data, but this does not work if you are logged in to an account.
 
 1. Have Ferdi running on your system without an account.
