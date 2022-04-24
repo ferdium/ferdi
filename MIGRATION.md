@@ -24,8 +24,9 @@ If you run your own server you naturally need to replace `https://api.getferdi.c
 If you use Ferdi without an account then your app is running a local server to manage your data, but this does not work if you are logged in to an account.
 
 1. Have Ferdi running on your system without an account.
-2. Open [http://localhost:45569/export](http://localhost:45569/export) in any browser for instant access.
-3. Save the `export.fedi-data` file to anywhere you'd like for safe keeping.
+2. Go to `Help > Import/Export Configuration Data` which should open a local url in your default browser.
+3. Click on `export your data to a ".ferdium-data" file`.
+4. Save the `export.fedi-data` file to anywhere you'd like for safe keeping.
 
 ## Importing
 
@@ -49,6 +50,8 @@ Accountless instances have all the same functionality as account based ones with
 If you don't intend to use this app on multiple machines with regularly changing settings and lists of services there's no benefit to having an account.\
 Having a backup of your `export.fedi-data` whenever you make changes to your setup provides a similarly secure although slower alternative to automatic syncing that doesn't rely on a server's constant availability.
 
-1. Open [http://localhost:45569/transfer](http://localhost:45569/transfer) in any browser.
-2. Using the File browser button find the previously saved `export.fedi-data` file on your system and click the "Import data" button.
-3. Restart your application.
+1. Have Ferdi running on your system without an account.
+2. When you get to the screen that says "Get Started", go to `Help > Import/Export Configuration Data` which should open a local url in your default browser.
+4. Click on `import your data from a ".ferdium-data" file`.
+5. Using the File browser button find the previously saved `export.fedi-data` file on your system and click the "Import data" button.
+6. Restart your application.
